@@ -4,10 +4,6 @@
   font-family: Roboto, sans-serif;
 }
 
-.hero-section {
-  background-color: #1f2937;
-}
-
 h1 {
   color: #1f2937;
 }
@@ -29,6 +25,7 @@ img {
 .hero-section {
   display: flex;
   flex-direction: column;
+  background-color: #1f2937;
 }
 
 .nav-bar {
@@ -160,4 +157,51 @@ img {
 .quote-author {
   text-align: end;
   font-weight: 800;
+}
+
+.fourth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-container {
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+.sign-up-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 36px 48px;
+}
+
+.sign-up-text h1 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.sign-up-text p {
+  color: #eff6ff;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.contrast {
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 12px 26px;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 18px 0 28px;
+  background-color: #1f2937;
+  color: #d1d5db;
+  font-size: 14px;
 }
